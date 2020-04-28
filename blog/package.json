@@ -1,5 +1,5 @@
 {
-  "name": "blog",
+  "name": "package.json",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -11,6 +11,7 @@
   },
   "private": true,
   "dependencies": {
+    "@babel/compat-data": "7.9.0",
     "@angular/animations": "~8.2.12",
     "@angular/common": "~8.2.12",
     "@angular/compiler": "~8.2.12",
@@ -48,5 +49,12 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
-  }
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.5.5"
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.15.",
+  "main": "karma.conf.js",
+  "author": "",
+  "license": "ISC"
 }
